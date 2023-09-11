@@ -1,0 +1,143 @@
+@font-face {
+    font-family: LosAngelesDeco;
+    src: url(../fonts/Los-Angeles-Deco.ttf);
+}
+
+*{  
+    margin: 0;  
+    padding: 0; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}  
+  
+.main{  
+    height: 100vh;  
+    width: 100%;  
+    background: -webkit-linear-gradient(45deg, rgb(247, 247, 231) 55%, rgb(212, 235, 214)); 
+    background: -moz-linear-gradient(45deg, rgb(247, 247, 231) 55%, rgb(212, 235, 214)); 
+    background: linear-gradient(45deg, rgb(247, 247, 231) 55%, rgb(212, 235, 214)); 
+    position: absolute; 
+}  
+.div_main_block{  
+    height: 90vh;  
+    width: 30vw;  
+    position: absolute;   
+    top: 50%;   
+    left: 50%;   
+    transform: translate(-50%, -50%);  
+    -webkit-box-shadow: 0px 6px 13px -2px rgba(17, 77, 10, 0.2);
+    -moz-box-shadow: 0px 6px 13px -2px rgba(17, 77, 10, 0.2);
+    box-shadow: 0px 6px 13px -2px rgba(17, 77, 10, 0.2);
+    background-color: #fffffc;  
+    border-radius: 0.5vw;
+}  
+.txt_div{  
+    height: 15.5vh;  
+    width: 29.5vw;  
+    border: 1px #9da88883 solid;
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    padding: 0.2vw;
+    transition: 0.7s;
+    background-color: #fffffc;  
+}  
+.txt_div:hover{
+    transform: scale(1.03,1.03);
+}
+
+.p1{
+    font-size: 1.1vw;
+    padding: 0.2vw;
+    padding-top: 0.2vw;
+    color: #260f06;
+}
+.main_p{
+    padding-top: 0.2vw;
+    font-size: 1.4vw;
+    text-align: center;
+}
+.table_b{  
+    height: 73.5vh;  
+    width: 30vw;  
+    border: 0.1vw #9da88853 solid;  
+    border-collapse: collapse;  
+    border-radius: 0.5vw;
+}  
+.td_b{  
+    border: 1px #9da8887f solid;  
+    font-size: 1vw;  
+    text-align: center; 
+    border-radius: 0.5;
+} 
+ 
+.buttons{ 
+    height: 100%; 
+    width: 100%; 
+    background-color: #fdfdea09;  
+    border: #9da888; 
+    transition: 0.3s;
+} 
+
+.buttons:hover{
+    color: #00a529;
+}
+
+.sample{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 2vw;
+}
+ 
+
+
+/*кнопки*/  
+.bt1{  
+    font-size: 2vw;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-align: center;  
+}  
+.bt2{  
+    font-size: 2vw;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-align: center;  
+}  
+.bt3{  
+    font-size: 2vw;  
+    font-family: 'Times New Roman', Times, serif;  
+    text-align: center;  
+}  
+.bt4{  
+    font-family:Georgia, serif;  
+    font-size: 2vw;  
+    text-align: center;  
+}  
+.bt5{  
+    font-family:'Courier New', Courier, monospace;  
+    font-size: 2vw;  
+    text-align: center;  
+}  
+.bt6{  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size: 2vw;  
+    text-align: center;  
+}  
+.bt7{  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 2vw;  
+    text-align: center;  
+}  
+.bt8{   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 2vw;  
+    text-align: center;  
+}  
+.bt9{  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 2vw;  
+    text-align: center;  
+}  
+.bt10{  
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    font-size: 2vw;  
+    text-align: center;  
+}

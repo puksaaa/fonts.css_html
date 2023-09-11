@@ -1,0 +1,169 @@
+<!DOCTYPE html>   
+<html>   
+    <head>   
+        <meta charset="utf-8">   
+        <title>Document</title>   
+        <link href="../ccs/style_project.css" rel="stylesheet" type="text/css">     
+    </head>   
+    <body>   
+        <div class="main" id="mdiv">   
+            <div class="div_main_block">  
+               <table class="tabl">  
+                    <div class="txt_div">
+                        <p class="p1">Пример шрифта:</p>
+                        <p class="main_p" id="p_main">Съешь ещё этих мягких французских булок, да выпей же чаю.</p>
+                    </div>
+                </table>  
+                <table class="table_b">  
+                    <tr class="tr_txt">  
+                        <td class="td_b" rowspan="">Arial, sans-serif;</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt1" onclick="getElementById('p_main').className ='bt1'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Gill Sans, sans-serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt2" onclick="getElementById('p_main').className ='bt2'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Times New Roman, serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt3" onclick="getElementById('p_main').className ='bt3'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Georgia, serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt4" onclick="getElementById('p_main').className ='bt4'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Courier New, monospace</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt5" onclick="getElementById('p_main').className ='bt5'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Lucida Sans, sans-serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt6" onclick="getElementById('p_main').className ='bt6'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Cambria, serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt7" onclick="getElementById('p_main').className ='bt7'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Segoe UI, sans-serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt8" onclick="getElementById('p_main').className ='bt8'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Verdana, sans-serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt9" onclick="getElementById('p_main').className ='bt9'">применить</button> 
+                        </td>  
+                    </tr>  
+                    <tr class="tr_txt">  
+                        <td class="td_b">Impact, sans-serif</td>  
+                        <td class="td_b"> 
+                            <button class="buttons" id="bt10" onclick="getElementById('p_main').className ='bt10'">применить</button> 
+                        </td>  
+                    </tr>  
+                </table>  
+            </div><!--2 блок основа-->  
+        </div>   
+        <script> 
+            function print_font1(){  
+                let bt1 = document.getElementById(`bt1`);  
+                document.getElementById(`p_main`);  
+                p.className = bt1;  
+                bt1.addEventListener(`click`, print_font1) 
+            }  
+             
+             
+             
+            function print_font2(){  
+                let bt2 = document.getElementById(`bt2`);  
+                let p = document.getElementById(`p_main`)
+                p.className = bt2;  
+            bt2.addEventListener(`click`, print_font2)  
+            }
+             
+            function print_font3(){  
+                let bt3 = document.getElementById(`bt3`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt3;  
+                bt3.addEventListener(`click`, print_font3)  
+            }  
+            
+             
+             
+            function print_font4(){  
+                let bt4 = document.getElementById(`bt4`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt4;  
+                bt4.addEventListener(`click`, print_font4)  
+            }  
+            
+             
+             
+            function print_font5(){  
+                let bt5 = document.getElementById(`bt5`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt5;  
+                bt5.addEventListener(`click`, print_font5)  
+            }  
+            
+             
+             
+            function print_font6(){  
+                let bt6 = document.getElementById(`bt6`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt6;  
+                bt6.addEventListener(`click`, print_font6)  
+            }  
+            
+             
+             
+            function print_font7(){  
+                let bt7 = document.getElementById(`bt7`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt7;  
+                bt7.addEventListener(`click`, print_font7)
+            }  
+              
+             
+             
+            function print_font8(){  
+                let bt8 = document.getElementById(`bt8`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt8;  
+                bt8.addEventListener(`click`, print_font8) 
+            }  
+             
+             
+            function print_font9(){  
+                let bt9 = document.getElementById(`bt9`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt9;  
+                bt9.addEventListener(`click`, print_font9)  
+            }  
+            
+             
+            function print_font10(){  
+                let bt8 = document.getElementById(`bt10`);  
+                let p = document.getElementById(`p_main`)  
+                p.className = bt10;  
+                bt10.addEventListener(`click`, print_font10) 
+            }  
+            
+ 
+        </script>   
+    </body>   
+</html>
